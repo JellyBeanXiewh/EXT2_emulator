@@ -4,7 +4,9 @@ An emulator that simulate EXT2 file system.
 This emulator merge super block, group descriptor, inode map and block map into a new super block. It occupied 656 Bytes.
 
 The maximum size of a single file is 6KB.
+
 The maximum number of files and directories a single folder can contain is 46.
+
 The whole file system can contain mostly 1024 files and directories.
 
 ## build and run
