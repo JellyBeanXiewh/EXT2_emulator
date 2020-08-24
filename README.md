@@ -39,31 +39,42 @@ $ ./ext2_emu
 
 You can also use "help" command in Emulator to get tips below.
 
+```
 create:
 Usage: create SIZE FILE
 	or: create OPTION DIRECTORY
 Create the FILE or DIRECTORY, if it does not already exist.
 	-d create directory
+```
 
+```
 delete:
 Usage: delete OPTION FILE
 Delete the FILE
 	-d delete directory and its contents recursively.
 	-f delete file
+```
 
+```
 df:
 Usage: df
 Show information about the file system.
+```
 
+```
 ls:
 Usage: ls FILE
 List information about the FILEs.
+```
 
+```
 move:
 Usage: move SOURCE DESTINATION
 move SOURCE to DESTINATION.
+```
 
+```
 shutdown:
 Usage: shutdown
 Shut down the file system.
-
+```
